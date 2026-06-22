@@ -2,6 +2,7 @@ package com.example.studentcard
 
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asComposeImageBitmap
+import org.jetbrains.skia.Bitmap
 import org.jetbrains.skia.Image
 import platform.UIKit.UIDevice
 
@@ -12,4 +13,4 @@ class IOSPlatform: Platform {
 actual fun getPlatform(): Platform = IOSPlatform()
 
 actual fun ByteArray.toImageBitmap(): ImageBitmap =
-    Image.makeFromEncoded(this).asComposeImageBitmap()
+    Bitmap.makeFromImage(Image.makeFromEncoded(this)).asComposeImageBitmap()
