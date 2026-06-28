@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		DF234C350882E233B970C324 /* StudentCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF234C350882E233B970C324 /* dne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -59,7 +59,7 @@
 		38994E7DF0BB5A967372F363 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF234C350882E233B970C324 /* StudentCard.app */,
+				DF234C350882E233B970C324 /* dne.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			packageProductDependencies = (
 			);
 			productName = iosApp;
-			productReference = DF234C350882E233B970C324 /* StudentCard.app */;
+			productReference = DF234C350882E233B970C324 /* dne.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

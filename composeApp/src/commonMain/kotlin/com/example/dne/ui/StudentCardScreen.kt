@@ -1,4 +1,4 @@
-package com.example.studentcard.ui
+package com.example.dne.ui
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
@@ -20,16 +20,16 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.studentcard.data.StudentRepository
-import com.example.studentcard.toImageBitmap
-import com.example.studentcard.ui.components.AppTopbar
+import com.example.dne.data.StudentRepository
+import com.example.dne.toImageBitmap
+import com.example.dne.ui.components.AppTopbar
 import kotlin.io.encoding.Base64
 import kotlin.io.encoding.ExperimentalEncodingApi
 import qrcode.QRCode
 
 @OptIn(ExperimentalEncodingApi::class, ExperimentalFoundationApi::class)
 @Composable
-fun StudentCardScreen(onAdminClick: () -> Unit) {
+fun dneScreen(onAdminClick: () -> Unit) {
     val repository = remember { StudentRepository() }
     val uriHandler = LocalUriHandler.current
     
@@ -99,7 +99,7 @@ fun StudentCardScreen(onAdminClick: () -> Unit) {
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .aspectRatio(1f)
+                                .aspectRatio(3f / 4f)
                                 .padding(16.dp)
                                 .clip(RoundedCornerShape(8.dp))
                                 .background(Color(0xFFF0F0F0))
@@ -132,7 +132,7 @@ fun StudentCardScreen(onAdminClick: () -> Unit) {
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .aspectRatio(1f)
+                                .aspectRatio(3f / 4f)
                                 .padding(16.dp)
                                 .clip(RoundedCornerShape(8.dp))
                                 .background(Color.White)

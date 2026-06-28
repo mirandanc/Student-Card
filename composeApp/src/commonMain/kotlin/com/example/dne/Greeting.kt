@@ -1,4 +1,4 @@
-package com.example.studentcard
+package com.example.dne
 
 class Greeting {
     private val platform = getPlatform()

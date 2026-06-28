@@ -1,4 +1,4 @@
-package com.example.studentcard
+package com.example.dne
 
 import android.os.Build
 

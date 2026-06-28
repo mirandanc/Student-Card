@@ -1,4 +1,4 @@
-package com.example.studentcard.data
+package com.example.dne.data
 
 import com.russhwolf.settings.Settings
 import com.russhwolf.settings.get

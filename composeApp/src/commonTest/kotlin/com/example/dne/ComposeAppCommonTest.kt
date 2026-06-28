@@ -1,6 +1,6 @@
-package com.example.studentcard
+package com.example.dne
 
-import com.example.studentcard.data.StudentRepository
+import com.example.dne.data.StudentRepository
 import com.russhwolf.settings.MapSettings
 import kotlin.test.Test
 import kotlin.test.assertFalse

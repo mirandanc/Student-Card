@@ -1,4 +1,4 @@
-package com.example.studentcard.ui
+package com.example.dne.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -13,7 +13,7 @@ import io.github.vinceglb.filekit.core.PickerMode
 import io.github.vinceglb.filekit.core.PickerType
 import kotlin.io.encoding.Base64
 import kotlin.io.encoding.ExperimentalEncodingApi
-import com.example.studentcard.data.StudentRepository
+import com.example.dne.data.StudentRepository
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalEncodingApi::class)

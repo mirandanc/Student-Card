@@ -1,4 +1,4 @@
-rootProject.name = "StudentCard"
+rootProject.name = "dne"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

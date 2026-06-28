@@ -1,4 +1,4 @@
-package com.example.studentcard
+package com.example.dne
 
 import androidx.compose.ui.graphics.ImageBitmap
 

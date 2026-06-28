@@ -1,4 +1,4 @@
-package com.example.studentcard
+package com.example.dne
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -10,13 +10,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.studentcard.data.StudentRepository
-import com.example.studentcard.ui.LoginScreen
-import com.example.studentcard.ui.StudentCardScreen
-import com.example.studentcard.ui.AdminSetupScreen
+import com.example.dne.data.StudentRepository
+import com.example.dne.ui.LoginScreen
+import com.example.dne.ui.dneScreen
+import com.example.dne.ui.AdminSetupScreen
 import org.jetbrains.compose.resources.painterResource
-import studentcard.composeapp.generated.resources.Res
-import studentcard.composeapp.generated.resources.background
+import dne.composeapp.generated.resources.Res
+import dne.composeapp.generated.resources.background
 
 enum class Screen {
     Login,
@@ -51,7 +51,7 @@ fun App() {
                     Screen.Login -> LoginScreen(
                         onLoginSuccess = { currentScreen = Screen.Card }
                     )
-                    Screen.Card -> StudentCardScreen(
+                    Screen.Card -> dneScreen(
                         onAdminClick = { currentScreen = Screen.Admin }
                     )
                     Screen.Admin -> AdminSetupScreen(

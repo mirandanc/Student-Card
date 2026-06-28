@@ -1,4 +1,4 @@
-package com.example.studentcard.ui
+package com.example.dne.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -10,7 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.platform.LocalUriHandler
-import com.example.studentcard.ui.components.AppTopbar
+import com.example.dne.ui.components.AppTopbar
 
 @Composable
 fun LoginScreen(onLoginSuccess: () -> Unit) {
